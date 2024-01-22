@@ -122,3 +122,15 @@
 # list2 = copy.deepcopy(list1)
 # print(id(list1),id(list2))
 # print(id(list1[2]),id(list2[2]))
+
+#--------------------------------------
+
+T = int(input())
+
+for tc in range(1, T+1):
+    N = int(input())
+    arr = [list(map(int, input().split())) for _ in range(N)]
+
+    # code .....
+
+    print(f'{tc} {result}')
