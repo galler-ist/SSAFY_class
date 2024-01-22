@@ -70,3 +70,33 @@ my_list = [11,22,33,22]
 # my_list.sort(reverse=True)
 # print(my_list)
 
+# 얕은 복사
+# a = [1,2,3]
+# b = a[:]
+# print(b)
+# b[0]= 100
+# print(f'b는 {b}, a는 {a}')
+# a = [1,2, [100,200]]
+# b = a[:]
+# print(b)
+# b[2][0] = 9999
+# print(b)
+# print(a)
+
+# import copy
+# original_list = [1,2,[100,[5,55,555],200]]
+# deep_copied_list = copy.deepcopy(original_list)
+# # deep_copied_list = original_list[:] # 이게 얕은 복사
+# deep_copied_list[2][1][1] = -1
+
+# print(original_list)
+# print(deep_copied_list)
+
+# a='32'
+# b=3.5
+# print(a.isnumeric())
+
+# print('hello'.capitalize()) #Hello
+# 온라인 강의는 여기까지 ------------------
+
+
